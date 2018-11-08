@@ -113,7 +113,7 @@ a {
   display: flex;
 }
 .main {
-  background: #1db954;
+  background: yellow;
   width: 100vw;
   height: 100vh;
 }
@@ -126,6 +126,7 @@ a {
 }
 .right {
   flex-direction: column;
+  overflow: auto;
   width: 85%;
   height:87vh;
   background: linear-gradient( #2f393a , #080a07);
@@ -145,9 +146,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-/* .content_spacing {
-  height: 80%;
-} */
 .box_content {
   width: 100%;
   justify-content: center;
@@ -162,3 +160,11 @@ a {
   margin-right: 10px;
   width: 20%;
 }
+/* .footer {
+  width: 100%;
+  background: #282828;
+  height: 13vh;
+  position: relative;
+  margin-top: 87vh;
+  padding: 10px 10px;
+} */
