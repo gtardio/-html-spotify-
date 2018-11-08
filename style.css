@@ -1,0 +1,102 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+a {
+  color: #696a67;
+}
+.user a {
+  color: white;
+}
+.left a:hover {
+  text-decoration: none;
+  color: white;
+}
+.sidebar_text a:active {
+  color: #1db954;
+}
+.green-a {
+  color: #1db954;
+}
+.sidebar_text {
+  height: 50px;
+  width: 80%;
+  color: #696a67;
+  margin: 0;
+  margin-left: 10px;
+}
+.sidebar_text {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.sidebar_text h3 {
+  font-size: 15px;
+  margin: 0;
+  margin-top: 25px;
+  font-weight: 700;
+}
+.sidebar_text h4 {
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  bottom: 50px;
+  font-weight: 700;
+}
+.sidebar_text h5 {
+  font-size: 15px;
+  margin: 0;
+  position: absolute;
+  bottom: 10px;
+  font-weight: 700;
+  color: white;
+}
+.sidebar_text p {
+  font-size: 13px;
+  margin: 0;
+}
+#line_board {
+  height: 5px;
+  width: 80%;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  border-bottom: 1px solid #696a67;
+}
+
+
+
+/* --------------------------------------------------- */
+
+.flex_cont {
+  display: flex;
+}
+.main {
+  background: #1db954;
+  width: 100vw;
+  height: 100vh;
+}
+.left {
+  flex-direction: column;
+  width: 15%;
+  height:80vh;
+  background: #040503;
+  position: relative;
+}
+.right {
+  flex-direction: row;
+  width: 85%;
+  height:80vh;
+  background: green;
+}
+.logo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spotify_logo {
+  height: 100%;
+  width: 60%;
+  margin-top: 20px;
+}
