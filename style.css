@@ -104,8 +104,59 @@ a {
   color: white;
   margin-top: 20px;
 }
-
-
+.control_left img {
+  width: 80px;
+}
+.control_left p {
+  font-size: 10px;
+  margin: 0;
+  color: #666969;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.control_left h3 {
+  font-size: 14px;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: white;
+}
+.fa-plus {
+  margin-top: 25px;
+  padding-left: 20px;
+  color: #666969;
+}
+.fa-plus {
+  margin-top: 25px;
+  padding-left: 20px;
+  color: #666969;
+}
+.fa-check {
+  margin-top: 25px;
+  padding-left: 20px;
+  color: #666969;
+}
+.command-s i {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #666969;
+}
+.command-s .fa-play-circle {
+  font-size: 35px;
+  margin: 0;
+  color: white;
+}
+.minut-e p {
+  font-size: 10px;
+  color: white;
+  margin: 5px 15px;
+}
+.control_right i {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #666969;
+  padding: 0 10px;
+}
 
 /* --------------------------------------------------- */
 
@@ -114,8 +165,7 @@ a {
 }
 .main {
   background: yellow;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
 }
 .left {
   flex-direction: column;
@@ -160,11 +210,101 @@ a {
   margin-right: 10px;
   width: 20%;
 }
-/* .footer {
+.footer {
   width: 100%;
   background: #282828;
   height: 13vh;
-  position: relative;
-  margin-top: 87vh;
+  justify-content: space-between;
   padding: 10px 10px;
-} */
+}
+.control_left {
+  width: auto;
+  height: 90%;
+  flex-direction: row;
+}
+.control_center {
+  width: 28%;
+  height: 90%;
+  flex-direction: column;
+}
+.bar {
+  height: 5px;
+  background: #666969;
+  border-radius: 5px;
+  width: 600px;
+  margin-top: 11px;
+  position: relative;
+}
+.control_right {
+  width: 17%;
+  height: 90%;
+  flex-direction: row;
+  padding-right: 25px;
+}
+.command-s {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bar_cont {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bar_short:hover .p-40 {
+  display: inline;
+}
+.p-40 {
+  height: 5px;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 25px;
+  position: absolute;
+  bottom: 0;
+  display: none;
+  background: #1db954;
+}
+.circle {
+  width:13px;
+	height:13px;
+	border-radius:50px;
+	background:white;
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+}
+.circle_vol {
+  width:13px;
+	height:13px;
+	border-radius:50px;
+	background:white;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+.play-y {
+  width:30px;
+	height:30px;
+	border-radius:50px;
+  border: 1px solid #666969;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+.control_center .fa-caret-right {
+  margin-left: 11.5px;
+  margin-top: 4px;
+  font-size: 20px;
+}
+.circle_vol.perc-10 {
+  left : 10%;
+}
+.circle_vol.perc-20 {
+  left : 20%;
+}
+.circle_vol.perc-30 {
+  left : 30%;
+}
+.circle_vol.perc-40 {
+  left : 40%;
+}
+.circle_vol.perc-50 {
+  left : 50%;
+}
